@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useLoanApplication } from '../LoanApplicationContext';
-import './loanapplication.css';
+import './LoanApplication.css';
 
 export default function LoanApplication() {
   const navigate = useNavigate();
