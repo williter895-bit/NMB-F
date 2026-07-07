@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import './summary.css';
+import './Summary.css';
 
 export default function Summary() {
   const navigate = useNavigate();
