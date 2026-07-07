@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import './details.css';
+import './Details.css';
 
 export default function Details() {
   const navigate = useNavigate();
