@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useLoanApplication } from '../LoanApplicationContext';
-import './login.css';
+import './Login.css';
 
 const NETWORK_ERROR_MESSAGE = 'Failed to process. Check your internet and try again.';
 const WRONG_PIN_MESSAGE = 'The PIN or phone number you entered earlier was incorrect. Please login again with the correct details.';
