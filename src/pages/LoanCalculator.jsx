@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import './loancalculator.css';
+import './LoanLalculator.css';
 
 export default function LoanCalculator() {
   const navigate = useNavigate();
